@@ -5,3 +5,11 @@ output "filename" {
 output "file_content" {
   value = local_file.testfile1.content
 }
+
+output "filename2" {
+  value = local_file.testfile2.filename
+}
+
+output "file_content" {
+  value = local_file.testfile2.content
+}

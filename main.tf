@@ -1,9 +1,3 @@
-resource "local_file" "testfile1" {
-  filename = var.filename
-  content = var.filename
-}
-
-resource "local_file" "testfile2" {
-  filename = var.filename2
-  content = var.content2
+module "files" {
+  source = "git::https://github.com/terraform_local/terraformgitupdate.git//module"
 }

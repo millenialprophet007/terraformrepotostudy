@@ -1,3 +1,3 @@
 module "files" {
-  source = "git@github.com:millenialprophet007/terraformrepotostudy.git/module"
+  source = "git::https://github.com/terraform_local/terraformgitupdate.git//module"
 }
